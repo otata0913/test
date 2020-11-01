@@ -1,0 +1,172 @@
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: rgb(107,200,243);
+  color: #ffffff;
+  height: 85px;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: auto;
+}
+
+.body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo h2 {
+  color: rgb(74, 74, 74);
+  margin: 30px;
+  margin-top: 21px;
+  margin-left: 10px;
+  font-size: 30px;
+  float: left;
+}
+
+img.logotata {
+  height: 50px;
+  width: 50px;
+  float: left;
+  padding: 15px;
+  padding-top: 19px;
+}
+
+.header-list {
+  float: left;
+  background-color: rgb(186, 227, 249);
+  height: 90px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-list li {
+  float: left;
+  margin: 0px;
+  padding: 20px;
+  font-size: 20px;
+  padding-top: 28px;
+  color: black;
+  width: auto;
+}
+.header-list li {
+  transition: color 0.2s;
+}
+.header-list li:hover {
+  color: rgb(245, 162, 0);
+}
+
+.header-li-back {
+  background-color: rgb(186, 227, 249);
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.section-title h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  position: relative;
+  padding-left: 25px;
+}
+ 
+.section-title h3:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px rgb(119, 195, 223);
+}
+
+.section-title h3:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 10px;
+  width: 100%;
+  border-bottom: solid 3px rgb(119, 195, 223);
+}
+
+.contents-item {
+  float: left;
+  color: black;
+  margin-top: 15px;
+}
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.contents-item a {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+}
+.contents-item a:hover {
+  color: rgb(151, 206, 162);
+}
+.contents {
+  height: 500px;
+  color: black;
+}
+
+.title h1 {
+  font-size: 95px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.title h2{
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.footer {
+  background-color: rgba(0, 111, 188, 15);
+  color: #fff;
+  height: 260px;
+	width: 100%;
+}
+
+.footer-logo {
+  font-size: 70px;
+  padding: 50px 70px;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+.footer-list {
+  float: right;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.footer-list li {
+  float: left;
+  padding-top: 90px;
+  padding-right: 45px;
+  font-size: 22px;
+}
+.footer-list li a {
+  color: white;
+}
+
+.list:hover{
+  color: rgb(245, 162, 0);
+  transition: 0.2s;
+}
